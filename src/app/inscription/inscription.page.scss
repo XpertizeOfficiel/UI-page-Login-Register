@@ -1,0 +1,121 @@
+* {
+  font-family: "Poppins", sans-serif !important;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+ion-content {
+  .inscription-title {
+    margin-top: 3em;
+    h5 {
+      color: var(--couleur-princiapale);
+      font-size: 25px;
+      font-style: normal;
+      font-weight: bold !important;
+      line-height: normal;
+      letter-spacing: 1px;
+    }
+    .rectangle {
+      background: var(--couleur-princiapale);
+      width: 232px;
+      height: 13px;
+    }
+  }
+
+  .form {
+    .input-text {
+      h6 {
+        color: #000;
+        font-size: 13px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        letter-spacing: 0.52px;
+      }
+
+      input {
+        padding: 1em;
+        width: 350px !important;
+        height: 44px !important;
+        border-radius: 5px;
+        border: 0.5px solid var(--couleur-princiapale) !important;
+        border: none;
+      }
+
+      input:focus {
+        padding: 1em;
+        outline: none;
+        border: 1px solid var(--couleur-princiapale);
+      }
+
+      input::placeholder {
+        padding-left: 1em;
+        color: #d0cecece;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+      }
+    }
+  }
+
+  .mot-de-passe-oublie {
+    margin-top: 1em;
+    display: flex;
+    justify-content: flex-end;
+
+    span {
+      color: var(--couleur-princiapale);
+      font-size: 11px;
+      font-style: normal;
+      font-weight: bold !important;
+      line-height: normal;
+      letter-spacing: 0.44px;
+    }
+  }
+
+  .btn-inscription {
+    margin-top: 1em;
+
+    ion-button {
+      font-weight: bold;
+      font-size: 18px !important;
+      --box-shadow: none;
+      border-radius: 5px !important;
+      height: 44px !important;
+      --background: var(--couleur-princiapale);
+    }
+  }
+
+  .btn-google {
+    margin-top: 1em;
+    ion-button {
+      border: 2px solid var(--couleur-princiapale);
+      text-transform: none;
+      font-weight: bold;
+      color: var(--couleur-princiapale);
+      --box-shadow: none;
+      border-radius: 5px !important;
+      height: 44px !important;
+      --background: #fff;
+      img {
+        width: 25px;
+      }
+    }
+  }
+
+  .footer {
+    margin-top: 1em;
+    display: flex;
+    justify-content: center;
+
+    h6 {
+      color: var(--couleur-princiapale);
+      font-size: 14.5px;
+      font-style: normal;
+      font-weight: 600;
+      line-height: normal;
+      letter-spacing: 0.44px;
+    }
+  }
+}
